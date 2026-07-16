@@ -1,0 +1,79 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# uv
+.uv-cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Linters and type checkers
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.dmypy.json
+dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models and ML artifacts
+models/*
+!models/.gitkeep
+artifacts/
+mlruns/
+wandb/
+
+# Local configs
+config/local/
+*.local.toml
+*.local.yaml
+*.local.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.venv
