@@ -1,7 +1,7 @@
 install:
 	uv sync
 
-pre-commit
+pre-commit:
 	uv run pre-commit install
 
 test:

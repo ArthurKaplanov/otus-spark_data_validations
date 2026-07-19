@@ -77,3 +77,11 @@ tmp/
 temp/
 *.tmp
 .venv
+
+#Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+key.json
+authorized_key.json
+.terraform/

@@ -26,6 +26,7 @@ dev = [
     "black",
     "ruff",
     "pre-commit",
+    "make>=0.1.6.post2",
 ]
 
 [tool.ruff]
