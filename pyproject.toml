@@ -1,5 +1,5 @@
 [project]
-name = "hw2_spark_data_validation"
+name = "hw3_spark_data_validation"
 version = "0.1.0"
 description = "New ML project"
 authors = [
@@ -15,6 +15,7 @@ dependencies = [
     "loguru",
     "matplotlib",
     "seaborn",
+    "pyspark>=4.2.0",
 ]
 
 [dependency-groups]
